@@ -11,3 +11,9 @@ The output of your system for task1 should use the same structure of task1Annota
 You can then use precisionTask1.py to evaluate your results using:
 
 python precisionTask1.py task1AnnotatedChallenge.xml yourFileResults.xml
+
+
+Please check the wiki for further information
+
+To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA. 
+After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
