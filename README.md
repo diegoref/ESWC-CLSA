@@ -1,7 +1,9 @@
 # ESWC-CLSA
 ESWC-15 Challenge on Concept-Level Sentiment Analysis
 
+-----------------
 February 18, 2015
+-----------------
 
 Added task1_CLSA.zip
 It contains the task1AnnotatedChallenge.xml annotated file for testing your system.
@@ -19,7 +21,11 @@ To ask questions and information please join our mailing list at http://groupspa
 After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
 
 
+
+-----------------
 February 21, 2015
+-----------------
+
 Added task2_CLSA.zip
 It contains the xml annotated file for testing your system.
 
