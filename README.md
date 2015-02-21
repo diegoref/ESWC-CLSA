@@ -37,5 +37,5 @@ File <i>precisionTask2.zip</i> contains the instructions on how to run the preci
 Please check the wiki for further information.
 
 
-To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA.</br>
+To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA.<br>
 After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
