@@ -1,6 +1,8 @@
 # ESWC-CLSA
 ESWC-15 Challenge on Concept-Level Sentiment Analysis
 
+Check the wiki page to see more details
+
 -----------------
 February 18, 2015
 -----------------
