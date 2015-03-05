@@ -1,6 +1,7 @@
 import sys
 from xml.dom import minidom
 from rdflib import Graph
+import xml.etree.ElementTree as ET
 
 
 
