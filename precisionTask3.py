@@ -100,16 +100,6 @@ if __name__ == '__main__':
 	print "opinion:",prec_opinion, recall_opinion, f1_opinion, tp_opinion,fp_opinion,fn_opinion
 	print "oppol:",prec_oppol, recall_oppol, f1_oppol, tp_oppol,fp_oppol,fn_oppol
 
-	sys.exit(1)
-
-	missing = len(ann) - len(res)
-	print "tp,fp,tn,fn : ",tp,fp,tn,fn
-
-	precision = tp / (tp + fp)
-	recall = tp / (tp + fn)
-
-	print "precision:",precision
-	print "recall:",recall
-	F1 = 2 * precision * recall / (precision + recall)
-	print "F1:",F1
-	print "missing : ",missing
+	print "Task3 precision",0.25*prec_holder+0.25*prec_topic+0.25*prec_opinion+0.25*prec_oppol
+	print "Task3 recall",0.25*recall_holder+0.25*recall_topic+0.25*recall_opinion+0.25*recall_oppol
+	print "Task3 F1",0.25*f1_holder+0.25*f1_topic+0.25*f1_opinion+0.25*f1_oppol
