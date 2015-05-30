@@ -31,7 +31,7 @@ def prec(ann,res,tip):
 						found = True
 						break
 			if found == False:
-				fp = fp + 1
+				fn = fn + 1
 		for frame1 in res[sent]:
 			if tip==3:
 				pp = frame1[tip-1]
@@ -47,10 +47,20 @@ def prec(ann,res,tip):
 						found = True
 						break
 			if found == False:
-				fn = fn + 1
-	precision = tp / (tp + fp)
-	recall = tp / (tp + fn)
-	F1 = 2 * precision * recall / (precision + recall)
+				fp = fp + 1
+	if tp+fp == 0:
+		precision = 0
+	else:
+		precision = tp / (tp + fp)
+	if tp+fn==0:
+		recall = tp / (tp + fn)
+	else:
+		recall = 0
+	if precision + recall == 0:
+		F1 = 0
+	else:
+		F1 = 2 * precision * recall / (precision + recall)
+
 	return precision,recall,F1,tp,fp,fn
 
 if __name__ == '__main__':
