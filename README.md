@@ -7,7 +7,7 @@ Check the <a href="https://github.com/diegoref/ESWC-CLSA/wiki">wiki</a> page to 
 -----------------
 June 18, 2015
 -----------------
-Added <i><a href='https://github.com/diegoref/ESWC-CLSA/blob/master/task1Challenge_testGold.xml'>task1Challenge_testGold.xml</a></i> and <i><a href='https://github.com/diegoref/ESWC-CLSA/blob/master/task3Challenge_testGold.xml'>task3Challenge_testGold.xml</a></i>. These are the two testset where systems have to be run on. Results will be sent in the required format.
+Added <i><a href='https://github.com/diegoref/ESWC-CLSA/blob/master/task1Challenge_testGold.zip'>task1Challenge_testGold.zip</a></i> and <i><a href='https://github.com/diegoref/ESWC-CLSA/blob/master/task3Challenge_testGold.zip'>task3Challenge_testGold.zip</a></i>. These are the two testset where systems have to be run on. Results will be sent in the required format.
 
 
 Please check the wiki for further information.
