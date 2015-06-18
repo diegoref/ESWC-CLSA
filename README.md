@@ -16,6 +16,9 @@ SENTILO - Accuracy: 0.3011<br>
 <br>
 <i>Task 3:</i><br>
 FBK - Precision: 0.3996; Recall: 0.5336; F1: 0.4570<br>
+<br>
+<i>Most Innovative Approach</i><br>
+SENTILO - The system builds on top of Discourse Representation Theory, relies on VerbNet for identifying and formalizing events and their associated thematic roles. SENTILO uses FRED which transforms such logical form to RDF by complying to Semantic Web and Linked Data design principles, and by extending the representation model with event- and situation- semantics as formally defined by DOLCE+DnS ontology. A new sentiment ontology is developed, OntoSentilo, that defines concepts and relations that characterize the entities composing an opinion sentence (opinion trigger events, holders, topics and subtopics, opinion features).
 
 
 
