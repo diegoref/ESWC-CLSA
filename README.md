@@ -13,12 +13,10 @@ June 18, 2015
 KIM - Accuracy: 0.4129<br>
 FBK - Accuracy: 0.4078<br>
 SENTILO - Accuracy: 0.3011<br>
-<br>
 <b>KIM is the winner of task 1 and is awarded with a Springer voucher of 150 euros</b>
 <br><br>
 <i>Task 3:</i><br>
 FBK - Precision: 0.3996; Recall: 0.5336; F1: 0.4570<br>
-<br>
 <b>FBK is the winner of task 3 and is awarded with a Springer voucher of 150 euros</b>
 <br><br>
 <i>Most Innovative Approach</i><br>
