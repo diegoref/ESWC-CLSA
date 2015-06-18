@@ -4,6 +4,21 @@ ESWC-15 Challenge on Concept-Level Sentiment Analysis
 Check the <a href="https://github.com/diegoref/ESWC-CLSA/wiki">wiki</a> page to see more details
 
 
+
+-----------------
+June 18, 2015
+-----------------
+<b>Results of the challenge</b>
+<i>Task 1:</i>
+KIM - Accuracy: 0.4129
+FBK - Accuracy: 0.4078
+SENTILO - Accuracy: 0.3011
+
+<i>Task 3:</i>
+FBK - Precision: 0.3996; Recall: 0.5336; F1: 0.4570
+
+
+
 -----------------
 June 18, 2015
 -----------------
