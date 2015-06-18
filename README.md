@@ -3,18 +3,31 @@ ESWC-15 Challenge on Concept-Level Sentiment Analysis
 
 Check the <a href="https://github.com/diegoref/ESWC-CLSA/wiki">wiki</a> page to see more details
 
+
 -----------------
-February 18, 2015
+June 18, 2015
 -----------------
+Added <i>task1Challenge_testGold.xml</i> and <i>task3Challenge_testGold.xml</i>. These are the two testset where systems have to be run on. Results will be sent in the required format.
 
-Added <i>task1_CLSA.zip</i><br>
-It contains the task1AnnotatedChallenge.xml annotated file for testing your system.
 
-The output of your system for task1 should use the same structure of task1AnnotatedChallenge.xml. You do not need to report the <text>...</text> content. You need to indicate the <sentence>...</sentence> and <polarity>...</polarity> tags.
+Please check the wiki for further information.
 
-You can then use <i>precisionTask1.py</i> to evaluate your results using:
+To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA.<br>
+After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
 
-<i>python precisionTask1.py task1AnnotatedChallenge.xml yourFileResults.xml</i>
+
+
+-----------------
+March 13, 2015
+-----------------
+Added <i>task3_CLSA.zip</i><br>
+It contains the xml annotated file for testing your system.
+
+The output of your system for task3 should use the same structure of task3AnnotatedChallenge.xml. You do not need to report the <text>...</text> content. You need to indicate the <sentence>...</sentence> and all the other tags.
+
+You can then use <i>precisionTask3.py</i> to evaluate your results using:
+
+<i>python precisionTask3.py task3AnnotatedChallenge.xml yourFileResults.xml</i>
 
 
 Please check the wiki for further information.
@@ -42,20 +55,26 @@ Please check the wiki for further information.
 To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA.<br>
 After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
 
+
+
 -----------------
-March 13, 2015
+February 18, 2015
 -----------------
-Added <i>task3_CLSA.zip</i><br>
-It contains the xml annotated file for testing your system.
 
-The output of your system for task3 should use the same structure of task3AnnotatedChallenge.xml. You do not need to report the <text>...</text> content. You need to indicate the <sentence>...</sentence> and all the other tags.
+Added <i>task1_CLSA.zip</i><br>
+It contains the task1AnnotatedChallenge.xml annotated file for testing your system.
 
-You can then use <i>precisionTask3.py</i> to evaluate your results using:
+The output of your system for task1 should use the same structure of task1AnnotatedChallenge.xml. You do not need to report the <text>...</text> content. You need to indicate the <sentence>...</sentence> and <polarity>...</polarity> tags.
 
-<i>python precisionTask3.py task3AnnotatedChallenge.xml yourFileResults.xml</i>
+You can then use <i>precisionTask1.py</i> to evaluate your results using:
+
+<i>python precisionTask1.py task1AnnotatedChallenge.xml yourFileResults.xml</i>
 
 
 Please check the wiki for further information.
 
 To ask questions and information please join our mailing list at http://groupspaces.com/ESWC2015-CLSA.<br>
 After you join the group, you can post messages to the mailing list address ESWC2015-CLSA@groupspaces.com
+
+
+
