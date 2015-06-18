@@ -8,14 +8,14 @@ Check the <a href="https://github.com/diegoref/ESWC-CLSA/wiki">wiki</a> page to 
 -----------------
 June 18, 2015
 -----------------
-<b>Results of the challenge</b>
-<i>Task 1:</i>
-KIM - Accuracy: 0.4129
-FBK - Accuracy: 0.4078
-SENTILO - Accuracy: 0.3011
-
-<i>Task 3:</i>
-FBK - Precision: 0.3996; Recall: 0.5336; F1: 0.4570
+<b>Results of the challenge</b><br>
+<i>Task 1:</i><br>
+KIM - Accuracy: 0.4129<br>
+FBK - Accuracy: 0.4078<br>
+SENTILO - Accuracy: 0.3011<br>
+<br>
+<i>Task 3:</i><br>
+FBK - Precision: 0.3996; Recall: 0.5336; F1: 0.4570<br>
 
 
 
