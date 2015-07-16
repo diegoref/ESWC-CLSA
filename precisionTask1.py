@@ -19,27 +19,33 @@ if __name__ == '__main__':
 
 	ann = dict()
 	for el in itemlistAnn:
-		id = int(el.getAttribute("id"))
+		id = el.getAttribute("id")
 		pol = int(el.getElementsByTagName("polarity")[0].firstChild.data)
 		ann[id] = pol
 
 	res = dict()
 	for el in itemlistRes:
-		id = int(el.getAttribute("id"))
+		id = el.getAttribute("id")
 		pol = int(el.getElementsByTagName("polarity")[0].firstChild.data)
 		res[id] = pol
 
-	tp = 0
-	fp = 0
-	tn = 0
-	fn = 0
+	tp = 0.0
+	fp = 0.0
+	tn = 0.0
+	fn = 0.0
+
+	for el in ann:
+		print ann[el],res[el]
+
+	sys.exit(1)
+
 	for el in res:
-		if res[el]==ann[el]:
+		if el in res and el in ann and res[el]==ann[el]:
 			if res[el]==0:
 				tn = tn + 1
 			if res[el]==1:
 				tp = tp + 1
-		if res[el]!=ann[el]:
+		if (el in res and el not in ann) or res[el]!=ann[el]:
 			if res[el]==0:
 				fn = fn + 1
 			if res[el]==1:
@@ -48,8 +54,8 @@ if __name__ == '__main__':
 	missing = len(ann) - len(res)
 	print "tp,fp,tn,fn : ",tp,fp,tn,fn
 
-	precision = tp / (tp + fp)
-	recall = tp / (tp + fn)
+	precision = (float)(tp / (tp + fp + 0.0))
+	recall = (float)(tp / (tp + fn))
 
 	print "precision:",precision
 	print "recall:",recall
